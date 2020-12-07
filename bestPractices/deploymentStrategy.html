@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Rolling deployments
+In each iteration, a rolling deployment replaces instances of an application's previous version. It replaces them with instances of the new version on a fixed set of machines (rolling set).
+Canary deployments
+A canary deployment reduces risk by slowly rolling out changes to a small subset of users. As you gain confidence in the new version, you can release it to more servers in your infrastructure and route more users to it.
+Blue-green deployments
+A blue-green deployment reduces downtime by having an identical standby environment. Only one environment is live at any time.
+As you prepare for a new release, complete the final stage of testing in the green environment. After the software works in the green environment, switch traffic so that all incoming requests go to the green environment. The blue environment is idle.
+
+</body>
+</html>
